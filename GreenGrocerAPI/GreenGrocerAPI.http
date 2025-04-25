@@ -1,0 +1,6 @@
+@GreenGrocerAPI_HostAddress = http://localhost:5105
+
+GET {{GreenGrocerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

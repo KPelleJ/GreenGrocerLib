@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenGrocerLib", "GreenGrocerLib\GreenGrocerLib.csproj", "{D1091BC6-2F1B-4B61-ACA7-6FF77F189158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenGrocerAPI", "GreenGrocerAPI\GreenGrocerAPI.csproj", "{6F2F0E0E-6701-4089-ADC0-43C95B902D80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1091BC6-2F1B-4B61-ACA7-6FF77F189158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1091BC6-2F1B-4B61-ACA7-6FF77F189158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1091BC6-2F1B-4B61-ACA7-6FF77F189158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1091BC6-2F1B-4B61-ACA7-6FF77F189158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2F0E0E-6701-4089-ADC0-43C95B902D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2F0E0E-6701-4089-ADC0-43C95B902D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2F0E0E-6701-4089-ADC0-43C95B902D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2F0E0E-6701-4089-ADC0-43C95B902D80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46708C7D-0B58-4ECD-BB48-385DC1991AEA}
+	EndGlobalSection
+EndGlobal
