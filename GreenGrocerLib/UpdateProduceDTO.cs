@@ -8,7 +8,7 @@ namespace GreenGrocerLib
 {
     public class UpdateProduceDTO
     {
-        public string? Item { get; set; }
+        public string? Description { get; set; }
         public string? Amount { get; set; }
         public double? Price { get; set; }
         public int? Quantity { get; set; }

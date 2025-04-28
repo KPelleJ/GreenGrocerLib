@@ -15,10 +15,10 @@ namespace GreenGrocerLib
         public int Quantity { get; set; }
         public string Image { get; set; }
 
-        public Produce(int barcode, string item, string amount, double price, int quantity, string image) 
+        public Produce(int barcode, string description, string amount, double price, int quantity, string image) 
         {
             Barcode = barcode;
-            Description = item;
+            Description = description;
             Amount = amount;
             Price = price;
             Quantity = quantity;

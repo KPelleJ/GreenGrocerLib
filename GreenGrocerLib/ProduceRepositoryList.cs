@@ -47,8 +47,8 @@ namespace GreenGrocerLib
             if (produceToUpdate == null)
                 return null;
 
-            if (!string.IsNullOrWhiteSpace(updatedFields.Item))
-                produceToUpdate.Description = updatedFields.Item;
+            if (!string.IsNullOrWhiteSpace(updatedFields.Description))
+                produceToUpdate.Description = updatedFields.Description;
 
             if (!string.IsNullOrWhiteSpace(updatedFields.Amount))
                 produceToUpdate.Amount = updatedFields.Amount;
